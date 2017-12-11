@@ -1,0 +1,26 @@
+{
+  "name": "ts-book",
+  "version": "1.0.0",
+  "description": "Learning typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuzhuo0/ts-book.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuzhuo0/ts-book/issues"
+  },
+  "homepage": "https://github.com/zhuzhuo0/ts-book#readme",
+  "dependencies": {
+    "gulp-typescript": "^3.2.3",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
