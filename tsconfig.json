@@ -6,12 +6,17 @@
         "sourceMap": false,
         "outDir": "./js",
         "noImplicitReturns": false,
-        "allowUnreachableCode": false
+        "allowUnreachableCode": false,
+        "lib": [
+            "es2015",
+            "es2015.iterable",
+            "dom"
+        ]
     },
     "exclude": [
         "node_modules"
     ],
     "include": [
-        "./ts/**/*"
+        "./ts/*"
     ]
 }

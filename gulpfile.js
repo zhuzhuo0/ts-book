@@ -10,5 +10,5 @@ gulp.task('tsc', () => {
 });
 
 gulp.task('default', ['tsc'], () => {
-    gulp.watch('./ts/**/*.ts', ['tsc']);
+    gulp.watch('./ts/*/*.ts', ['tsc']);
 });
